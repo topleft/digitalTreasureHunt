@@ -1,0 +1,50 @@
+
+
+body {
+	background: url(images/veggieGarden.jpg) no-repeat;
+	background-size: 100%;
+}
+
+#main-wrapper {
+
+	/*background-color: rgba(255, 255, 255, 0.6);*/
+}
+
+
+table {
+  border-collapse: collapse;
+  margin: 0 10%;
+
+}
+th,
+td {
+  /*border: 3px solid #cecfd5;*/
+  padding: 10px 15px;
+  height: 10em;
+  width: 10em;
+}
+
+
+.hidden-treasure {
+	display: none;
+	/*background: rgba(0, 0, 200, 0.4);*/
+	height: 15em;
+	width: 15em;
+	/*border: 5px solid rgba(0, 0, 200, 0.4);*/
+	border-radius: 7.5em;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+.hidden-treasure img {
+	height: 15em;
+	width: 15em;
+	border: 20px solid rgba(0, 0, 200, 0.6); 
+	border-radius: 9em;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+
+}
