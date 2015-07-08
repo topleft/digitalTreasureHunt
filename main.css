@@ -18,7 +18,7 @@ table {
 }
 th,
 td {
-  /*border: 3px solid #cecfd5;*/
+  border: 3px solid #cecfd5;
   padding: 10px 15px;
   height: 10em;
   width: 10em;
@@ -41,10 +41,17 @@ td {
 .hidden-treasure img {
 	height: 15em;
 	width: 15em;
-	border: 20px solid rgba(0, 0, 200, 0.6); 
+	border: 20px solid rgba(0, 0, 200, 0.6);
 	border-radius: 9em;
 	color: white;
 	text-align: center;
 	vertical-align: middle;
 
+}
+
+.hint {
+	display: none;
+	width: 5em;
+	height: auto;
+	opacity: 0.3;
 }
